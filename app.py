@@ -32,7 +32,7 @@ class FishFeatures(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "Prueba de despliegue automático CI/CD desde GitHub!V3"}
+    return {"message": "Prueba de despliegue automático CI/CD desde GitHub!V4"}
 
 
 @app.post("/predic/")

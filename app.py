@@ -34,7 +34,7 @@ async def root():
     return {"message": "Prueba de despliegue automático CI/CD desde GitHub!"}
 
 
-@app.post("/prediccion/")
+@app.post("/predic/")
 async def predict(data: FishFeatures):
 
 #@app.get("/prediccion")

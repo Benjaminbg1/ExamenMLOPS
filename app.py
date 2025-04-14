@@ -1,7 +1,7 @@
 # Prueba de despliegue automático CI/CD desde GitHub
 # Prueba de despliegue automático CI/CD desde GitHub
 # Prueba de despliegue automático CI/CD desde GitHub
-
+# Prueba de despliegue automático CI/CD desde GitHub
 from fastapi import FastAPI,HTTPException
 from pydantic import BaseModel
 import pickle
@@ -32,7 +32,7 @@ class FishFeatures(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "Prueba de despliegue automático CI/CD desde GitHub!V2"}
+    return {"message": "Prueba de despliegue automático CI/CD desde GitHub!V3"}
 
 
 @app.post("/predic/")

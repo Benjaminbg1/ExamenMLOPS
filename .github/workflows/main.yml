@@ -22,11 +22,12 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Construir y subir imagen a Docker Hub
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5
         with:
           context: .
           push: true
           tags: docker.io/benjaminbg/examenmlopsbbg:latest
+          no-cache : true
 
       - name: Autenticarse con Google Cloud
         uses: google-github-actions/auth@v1

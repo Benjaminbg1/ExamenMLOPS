@@ -26,6 +26,8 @@ class FishFeatures(BaseModel):
     Length1: float
     Length2: float
     Length3: float
+# Prueba de despliegue automático CI/CD desde GitHub
+# Prueba de despliegue automático CI/CD desde GitHub
 
 @app.get("/")
 async def root():

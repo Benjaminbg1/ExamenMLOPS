@@ -37,6 +37,6 @@ jobs:
       - name: Desplegar en Cloud Run desde Docker Hub
         uses: google-github-actions/deploy-cloudrun@v1
         with:
-          service: examenmlops
+          service: examenmlopsbbg
           image: "docker.io/benjaminbg/examenmlopsbbg:latest"
           region: us-central1

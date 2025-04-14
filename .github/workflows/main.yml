@@ -47,3 +47,4 @@ jobs:
           service: examenmlopsbbg
           image: ${{ env.IMAGE_REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
           region: us-central1
+          port: 5000
